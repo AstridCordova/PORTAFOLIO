@@ -1,0 +1,40 @@
+#about {
+	[class*="col-"]{
+		margin: 0px;
+		padding: 0px;
+	}
+	.container-fluid {
+		background: $lila;
+		color : white;
+	}
+	.logo {
+		position: absolute;
+		top: 100px;
+		right: 565px;
+		z-index: 1000;
+		width: 10%;
+	}
+	.foto {
+		img {
+			width: 110%;
+			height: 700px;
+		}
+	}
+	.text {
+		padding: 10% 17% 10% 27%;
+		font-family: $body;
+		text-align: center;
+		h2 {
+			color: $violet;
+			font-size: 3em;
+			margin-bottom: 35px;
+			span {
+				font-size: 2em;
+				color: white;
+			}
+		}
+		p {
+			font-size: 1.313em;
+		}
+	}
+}

@@ -1,0 +1,58 @@
+#skills {
+	[class*="col-"]{
+		margin: 0px;
+		padding: 0px;
+	}
+	.title {
+		background: $violet;
+		color: $grey;
+		h2 {
+			margin: 0px;
+			font-family: $title;
+			font-size: 4.5em;
+			padding: 32% 26%;
+
+		}
+	}
+	.circle {
+		width: 143px;
+	    height: 140px;
+	    background: #F2F2F2;
+	    display: inline-block;
+	    border-radius: 100%;
+	    .html {
+	    	font-size: 70px;
+    		padding: 28% 23%;
+    		color: white;
+	    }
+	    .css {
+	    	font-size: 60px;
+    		padding: 34% 18% 27%;
+    		color: white;
+	    }
+	    p {
+	    	font-family: "Quicksand", sans-serif; 
+	    	line-height: 10px;
+	    	font-weight: bolder;
+	    	font-size: 20px;
+	    }
+	    img {
+	    	width: 50%;
+    		padding: 30% 0% 45%;
+    		margin: 0% 15%;	
+	    }
+	}
+	.chart {
+		position: relative;
+		display: inline-block;
+		margin: 50px 25px;
+		color: #999;
+		font-size: 14px;
+		text-align: center;
+		canvas{
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+}

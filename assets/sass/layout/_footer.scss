@@ -1,0 +1,42 @@
+footer {
+	background: $lila;
+	font-family: $body;
+	color: $violet;
+	font-size: 1.5em;
+	padding-bottom: 5%;
+	.container {
+		padding: 2% 0%;
+		background: white;
+		img {
+		width: 7%;
+		text-align: center;
+		margin: 1% 47.5%;
+		} 
+	}
+	p {
+		text-align: center;
+	}
+	.demo-fb {
+		position: relative;
+		width: 100%;
+		overflow: hidden; 
+		figure {
+			position: relative;
+			cursor: pointer;
+			margin-left: -50px;
+			p {
+				display: block;
+				position: relative;
+				z-index: 10;	
+			}
+		}
+		figcaption {
+			display: block;
+			position: absolute;
+			z-index: 10;
+			span {
+				display: block;
+			} 
+		}
+	}			
+}

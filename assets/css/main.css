@@ -1,0 +1,156 @@
+#about [class*="col-"] {
+  margin: 0px;
+  padding: 0px; }
+#about .container-fluid {
+  background: #C7C2CC;
+  color: white; }
+#about .logo {
+  position: absolute;
+  top: 100px;
+  right: 565px;
+  z-index: 1000;
+  width: 10%; }
+#about .foto img {
+  width: 110%;
+  height: 700px; }
+#about .text {
+  padding: 10% 17% 10% 27%;
+  font-family: "Quicksand", sans-serif;
+  text-align: center; }
+  #about .text h2 {
+    color: #7A5769;
+    font-size: 3em;
+    margin-bottom: 35px; }
+    #about .text h2 span {
+      font-size: 2em;
+      color: white; }
+  #about .text p {
+    font-size: 1.313em; }
+
+#skills [class*="col-"] {
+  margin: 0px;
+  padding: 0px; }
+#skills .title {
+  background: #7A5769;
+  color: #F2F2F2; }
+  #skills .title h2 {
+    margin: 0px;
+    font-family: "Pacifico", cursive;
+    font-size: 4.5em;
+    padding: 32% 26%; }
+#skills .circle {
+  width: 143px;
+  height: 140px;
+  background: #F2F2F2;
+  display: inline-block;
+  border-radius: 100%; }
+  #skills .circle .html {
+    font-size: 70px;
+    padding: 28% 23%;
+    color: white; }
+  #skills .circle .css {
+    font-size: 60px;
+    padding: 34% 18% 27%;
+    color: white; }
+  #skills .circle p {
+    font-family: "Quicksand", sans-serif;
+    line-height: 10px;
+    font-weight: bolder;
+    font-size: 20px; }
+  #skills .circle img {
+    width: 50%;
+    padding: 30% 0% 45%;
+    margin: 0% 15%; }
+#skills .chart {
+  position: relative;
+  display: inline-block;
+  margin: 50px 25px;
+  color: #999;
+  font-size: 14px;
+  text-align: center; }
+  #skills .chart canvas {
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+#portfolio {
+  background: #FDFBD2;
+  padding: 2% 7%; }
+  #portfolio h2 {
+    font-family: "Pacifico", cursive;
+    font-size: 4.5em;
+    color: #7A5769;
+    margin: 0px 0px 50px 0px;
+    text-align: center; }
+  #portfolio .col-left .port1 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-left .port2 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-left .port3 {
+    background: white;
+    height: 150px;
+    margin-bottom: 4%; }
+  #portfolio .col-center .port1 {
+    background: white;
+    height: 150px;
+    margin-bottom: 4%; }
+  #portfolio .col-center .port2 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-center .port3 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-right .port1 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-right .port2 {
+    background: white;
+    height: 200px;
+    margin-bottom: 4%; }
+  #portfolio .col-right .port3 {
+    background: white;
+    height: 150px;
+    margin-bottom: 4%; }
+
+footer {
+  background: #C7C2CC;
+  font-family: "Quicksand", sans-serif;
+  color: #7A5769;
+  font-size: 1.5em;
+  padding-bottom: 5%; }
+  footer .container {
+    padding: 2% 0%;
+    background: white; }
+    footer .container img {
+      width: 7%;
+      text-align: center;
+      margin: 1% 47.5%; }
+  footer p {
+    text-align: center; }
+  footer .demo-fb {
+    position: relative;
+    width: 100%;
+    overflow: hidden; }
+    footer .demo-fb figure {
+      position: relative;
+      cursor: pointer;
+      margin-left: -50px; }
+      footer .demo-fb figure p {
+        display: block;
+        position: relative;
+        z-index: 10; }
+    footer .demo-fb figcaption {
+      display: block;
+      position: absolute;
+      z-index: 10; }
+      footer .demo-fb figcaption span {
+        display: block; }
+
+/*# sourceMappingURL=main.css.map */
