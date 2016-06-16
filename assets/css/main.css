@@ -1,6 +1,6 @@
 .navbar {
   background: #FDFBD2;
-  border-bottom: #FDFBD2;
+  border-bottom: 0px;
   margin-bottom: 0px;
   position: fixed;
   z-index: 1000;
@@ -11,13 +11,14 @@
     font-family: "Pacifico", cursive;
     font-size: 4em;
     color: #7A5769; }
-  .navbar li {
-    color: white; }
-    .navbar li a {
-      font-family: "Quicksand", sans-serif;
-      font-size: 1.5em; }
-      .navbar li a:hover {
-        color: #7A5769; }
+  .navbar li a {
+    font-family: "Quicksand", sans-serif;
+    font-size: 1.5em; }
+    .navbar li a:hover {
+      color: #7A5769; }
+  .navbar .navbar-collapse {
+    border-color: #FDFBD2;
+    text-align: center; }
 
 #about {
   margin-top: 5.6%; }

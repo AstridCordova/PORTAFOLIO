@@ -1,6 +1,6 @@
 .navbar {
     background: $yellow;
-    border-bottom: $yellow;
+    border-bottom: 0px;
     margin-bottom: 0px;
     position: fixed;
     z-index: 1000;
@@ -13,7 +13,6 @@
         color: $violet;
     }
     li {
-        color: white;
         a {
             font-family: $body;
             font-size: 1.5em;
@@ -21,5 +20,9 @@
                 color: $violet;
             }
         }
+    }
+    .navbar-collapse{
+        border-color: $yellow;
+        text-align: center;
     }
 }
