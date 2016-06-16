@@ -10,7 +10,7 @@
 			margin: 0px;
 			font-family: $title;
 			font-size: 4.5em;
-			padding: 32% 26%;
+			padding: 38% 26%;
 
 		}
 	}
@@ -41,6 +41,10 @@
     		padding: 30% 0% 45%;
     		margin: 0% 15%;	
 	    }
+	    span {
+	    	font-size: 70px;
+	    	color: white;
+	    }
 	}
 	.chart {
 		position: relative;
@@ -53,6 +57,14 @@
 			position: absolute;
 			top: 0;
 			left: 0;
+		}
+	}
+	#owl-demo .item{
+  		margin: 3px;
+	}
+	.owl-controls{
+		.owl-pagination {
+			display: none;
 		}
 	}
 }

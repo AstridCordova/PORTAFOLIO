@@ -9,10 +9,28 @@
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link href="assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="assets/css/owl.theme.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
   </head>
   <body>
-    <header><span>Astrid</span></header>
+    <header>
+      <div class="container-fluid"></div>
+      <nav role="navigation" class="navbar navbar-default">
+        <div class="navbar-header">
+          <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle"><span class="sr-only">
+              <Toggle>navigation</Toggle></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a href="#" class="navbar-brand text-center">Astrid</a>
+        </div>
+        <div id="navbarCollapse" class="collapse navbar-collapse pull-right">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#portfolio">Portafolio</a></li>
+            <li><a href="#footer">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
     <section id="about">
       <div class="container-fluid">
         <div class="row"><img src="images/logo.png" class="logo">
@@ -22,7 +40,9 @@
           <div class="col-md-6">
             <div class="text">
               <h2>Un poco de <span>Mí</span></h2>
-              <p> consectetur adipisicing elit. Nesciunt consectetur atque minima necessitatibus sint possimus quod tempora, eum eius architecto perferendis. Deleniti repellat fugiat, numquam, non obcaecati tempore dolore porro?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt consectetur atque minima necessitatibus sint possimus quod tempora, eum eius architecto perferendis. Deleniti repellat fugiat, numquam, non obcaecati tempore dolore porro</p>
+              <p>Hola, mi nombre es Astrid, tengo 19 años y soy <span class="resalt">Front-End Developer,</span>pertenezco a la 4° promocion de <span class="resalt">Laboratoria</span></p>
+              <p>Soy una joven curiosa, apasionada  con la capacidad de aprender cosas nuevas y trabajar en equipo .Entre mis cualidades destaco la creatividad, responsabilidad y la puntualidad.</p>
+              <p>Aquí podras ver lo que aprendí y algunos de mis trabajos. </p>
             </div>
           </div>
         </div>
@@ -37,26 +57,42 @@
             </div>
           </div>
           <div class="col-md-9 container">
-            <div data-percent="90" class="circle chart"><i class="fa fa-html5 html"></i>
-              <p>HTML5</p>
-            </div>
-            <div data-percent="90" class="circle chart"> <i class="fa fa-css3 css"></i>
-              <p>CSS3</p>
-            </div>
-            <div data-percent="90" class="circle chart">
-              <p>BOOTSTRAP</p>
-            </div>
-            <div data-percent="90" class="circle chart"><img src="images/sass.png" class="sass">
-              <p>SASS</p>
-            </div>
-            <div data-percent="90" class="circle chart">
-              <p>JADE</p>
-            </div>
-            <div data-percent="20" class="circle chart">
-              <p>JAVASCRIPT</p>
-            </div>
-            <div data-percent="20" class="circle chart">
-              <p>JQUERY</p>
+            <div id="owl-demo" class="owl-carousel">
+              <div class="item">
+                <div data-percent="90" data-src="assets/owl1.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl"><i class="fa fa-html5 html"></i>
+                  <p>HTML5</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="90" data-src="assets/owl2.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl"> <i class="fa fa-css3 css"></i>
+                  <p>CSS3</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="90" data-src="assets/owl3.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl"><span>B</span>
+                  <p>BOOTSTRAP</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="90" data-src="assets/owl4.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl"><img src="images/sass.png" class="sass">
+                  <p>SASS</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="90" data-src="assets/owl5.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl">
+                  <p>JADE</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="20" data-src="assets/owl6.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl">
+                  <p>JAVASCRIPT</p>
+                </div>
+              </div>
+              <div class="item">
+                <div data-percent="20" data-src="assets/owl6.jpg" alt="Lazy Owl Image" class="circle chart lazyOwl"><span>JQ</span>
+                  <p>JQUERY</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -67,57 +103,47 @@
         <h2>Portafolio</h2>
         <div class="row">
           <div class="col-md-4 col-left">
-            <div class="port1"></div>
-            <div class="port2"></div>
-            <div class="port3"></div>
+            <div class="port1"><a target="blank" href="http://astridcordova.github.io/Agency-Them/"><img src="images/portfolio/agency.png" class="img-responsive"></a></div>
+            <div class="port2"><a target="blank" href="http://astridcordova.github.io/Escuela-de-Danza/"><img src="images/portfolio/studio.png" class="img-responsive studio"></a></div>
+            <div class="port3"><a target="blank" href="https://astridcordova.github.io/FlatTheme/"><img src="images/portfolio/flat.png" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-center">
-            <div class="port1"></div>
-            <div class="port2"></div>
-            <div class="port3"></div>
+            <div class="port1"><a target="blank" href="https://astridcordova.github.io/Reloj/"><img src="images/portfolio/reloj.png" class="img-responsive"></a></div>
+            <div class="port2"><a target="blank" href="http://astridcordova.github.io/Triangle/"><img src="images/portfolio/triangle.png" class="img-responsive"></a></div>
+            <div class="port3"><a target="blank" href="http://astridcordova.github.io/Primes/"><img src="images/portfolio/primes.png" class="img-responsive"></a></div>
           </div>
           <div class="col-md-4 col-right">
-            <div class="port1"></div>
-            <div class="port2"></div>
-            <div class="port3"></div>
+            <div class="port1"><a target="blank" href="http://astridcordova.github.io/User-Testing-360/"><img src="images/portfolio/user.png" class="img-responsive"></a></div>
+            <div class="port2"><a target="blank" href="http://astridcordova.github.io/Flatness/"><img src="images/portfolio/flatness.png" class="img-responsive"></a></div>
+            <div class="port3"><a target="blank" href="http://astridcordova.github.io/Kane/"><img src="images/portfolio/kane.png" class="img-responsive"></a></div>
           </div>
         </div>
       </div>
     </section>
-    <footer>
+    <footer id="footer">
       <div class="container"><img src="images/logo.png">
-        <div class="row">
+        <div class="row conp">
           <div class="col-md-6">
-            <p>985854454</p>
+            <p class="cel">985854454</p>
           </div>
           <div class="col-md-6">
-            <p>astridcordovar@gmail.com</p>
+            <p class="correo">astridcordovar@gmail.com</p>
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4">
-            <ul class="demo-fb">
-              <li>
-                <figure>
-                  <p>Facebok</p>
-                  <figcaption><span class="fa fa-facebook-official"></span></figcaption>
-                </figure>
-              </li>
-            </ul>
-          </div>
-          <div class="col-md-4">
-            <p>Linkedin</p>
-          </div>
-          <div class="col-md-4">
-            <p>Git hub</p>
-          </div>
+          <div class="col-md-4"><a target="_blank" href="https://www.facebook.com/astrid.cordovarodriguez">
+              <p>Facebook</p></a></div>
+          <div class="col-md-4"><a target="_blank" href="https://www.linkedin.com/in/astridcordovar">
+              <p>Linkedin</p></a></div>
+          <div class="col-md-4"><a target="_blank" href="https://github.com/AstridCordova">
+              <p>GitHub</p></a></div>
         </div>
       </div>
     </footer>
   </body>
-  <scrip src="https://code.jquery.com/jquery-1.10.2.min.js"></scrip>
-  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
   <script src="http://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+  <script src="assets/js/owl.carousel.js"></script>
   <script src="assets/js/main.js"></script>
 </html>

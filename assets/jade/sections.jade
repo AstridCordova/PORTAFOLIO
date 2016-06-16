@@ -4,12 +4,19 @@ section#about
 			img(src="images/logo.png" class="logo")
 			.col-md-6
 				.foto
-					img(src="images/yo.jpg")		
+					img(src="images/yo.jpg")
 			.col-md-6
 				.text
 					h2 Un poco de 
 						span Mí
-					p  consectetur adipisicing elit. Nesciunt consectetur atque minima necessitatibus sint possimus quod tempora, eum eius architecto perferendis. Deleniti repellat fugiat, numquam, non obcaecati tempore dolore porro?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt consectetur atque minima necessitatibus sint possimus quod tempora, eum eius architecto perferendis. Deleniti repellat fugiat, numquam, non obcaecati tempore dolore porro
+					p
+						|Hola, mi nombre es Astrid, tengo 19 años y soy 
+						span.resalt Front-End Developer,
+						|pertenezco a la 4° promocion de 
+						span.resalt Laboratoria
+					p Soy una joven curiosa, apasionada  con la capacidad de aprender cosas nuevas y trabajar en equipo .Entre mis cualidades destaco la creatividad, responsabilidad y la puntualidad.
+					p Aquí podras ver lo que aprendí y algunos de mis trabajos. 
+
 section#skills
 	.container-fluid
 		.row
@@ -17,40 +24,67 @@ section#skills
 				.title
 					h2 Skills
 			.col-md-9.container
-				div(class="circle chart" data-percent="90")
-					i.fa.fa-html5.html
-					p HTML5
-				div(class="circle chart" data-percent="90") 
-					i.fa.fa-css3.css
-					p CSS3
-				div(class="circle chart" data-percent="90")
-					//- bootstrap
-					p BOOTSTRAP
-				div(class="circle chart" data-percent="90")
-					img(class="sass" src="images/sass.png")
-					p SASS
-				div(class="circle chart" data-percent="90")
-					//- |jade
-					p JADE
-				div(class="circle chart" data-percent="20")
-					//- |javascript
-					p JAVASCRIPT
-				div(class="circle chart" data-percent="20")
-					//- |jquery
-					p JQUERY
+				div(id="owl-demo" class="owl-carousel")
+					.item
+						div(class="circle chart lazyOwl" data-percent="90" data-src="assets/owl1.jpg" alt="Lazy Owl Image")
+							i.fa.fa-html5.html
+							p HTML5
+					.item
+						div(class="circle chart lazyOwl" data-percent="90" data-src="assets/owl2.jpg" alt="Lazy Owl Image") 
+							i.fa.fa-css3.css
+							p CSS3
+					.item
+						div(class="circle chart lazyOwl" data-percent="90" data-src="assets/owl3.jpg" alt="Lazy Owl Image")
+							span B
+							p BOOTSTRAP
+					.item
+						div(class="circle chart lazyOwl" data-percent="90" data-src="assets/owl4.jpg" alt="Lazy Owl Image")
+							img(class="sass" src="images/sass.png")
+							p SASS
+					.item
+						div(class="circle chart lazyOwl" data-percent="90" data-src="assets/owl5.jpg" alt="Lazy Owl Image")
+							p JADE
+					.item
+						div(class="circle chart lazyOwl" data-percent="20" data-src="assets/owl6.jpg" alt="Lazy Owl Image")
+							p JAVASCRIPT
+					.item
+						div(class="circle chart lazyOwl" data-percent="20" data-src="assets/owl6.jpg" alt="Lazy Owl Image")
+							span JQ
+							p JQUERY
+
 section#portfolio
 	.container-fluid
 		h2 Portafolio
 		.row
 			.col-md-4.col-left
 				.port1
+					a(target="blank" href="http://astridcordova.github.io/Agency-Them/")
+						img(class="img-responsive" src="images/portfolio/agency.png")
 				.port2
+					a(target="blank" href="http://astridcordova.github.io/Escuela-de-Danza/")
+						img(class="img-responsive studio" src="images/portfolio/studio.png")
 				.port3
+					a(target="blank" href="https://astridcordova.github.io/FlatTheme/")
+						img(class="img-responsive" src="images/portfolio/flat.png")
 			.col-md-4.col-center
 				.port1
+					a(target="blank" href="https://astridcordova.github.io/Reloj/")
+						img(class="img-responsive" src="images/portfolio/reloj.png")
 				.port2
+					a(target="blank" href="http://astridcordova.github.io/Triangle/")
+						img(class="img-responsive" src="images/portfolio/triangle.png")
+						
 				.port3
+					a(target="blank" href="http://astridcordova.github.io/Primes/")
+						img(class="img-responsive" src="images/portfolio/primes.png")
 			.col-md-4.col-right
 				.port1
+					a(target="blank" href="http://astridcordova.github.io/User-Testing-360/")
+						img(class="img-responsive" src="images/portfolio/user.png")
 				.port2
+					a(target="blank" href="http://astridcordova.github.io/Flatness/")
+						img(class="img-responsive" src="images/portfolio/flatness.png")
 				.port3
+					a(target="blank" href="http://astridcordova.github.io/Kane/")
+						img(class="img-responsive" src="images/portfolio/kane.png")
+					

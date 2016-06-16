@@ -1,0 +1,25 @@
+.navbar {
+    background: $yellow;
+    border-bottom: $yellow;
+    margin-bottom: 0px;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    padding: 1%;
+    border-radius: 0px;
+    .navbar-brand {
+        font-family: $title;
+        font-size: 4em;
+        color: $violet;
+    }
+    li {
+        color: white;
+        a {
+            font-family: $body;
+            font-size: 1.5em;
+            &:hover {
+                color: $violet;
+            }
+        }
+    }
+}

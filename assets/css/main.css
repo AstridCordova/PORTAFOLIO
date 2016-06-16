@@ -1,31 +1,54 @@
-#about [class*="col-"] {
-  margin: 0px;
-  padding: 0px; }
-#about .container-fluid {
-  background: #C7C2CC;
-  color: white; }
-#about .logo {
-  position: absolute;
-  top: 100px;
-  right: 565px;
+.navbar {
+  background: #FDFBD2;
+  border-bottom: #FDFBD2;
+  margin-bottom: 0px;
+  position: fixed;
   z-index: 1000;
-  width: 10%; }
-#about .foto img {
-  width: 110%;
-  height: 700px; }
-#about .text {
-  padding: 10% 17% 10% 27%;
-  font-family: "Quicksand", sans-serif;
-  text-align: center; }
-  #about .text h2 {
-    color: #7A5769;
-    font-size: 3em;
-    margin-bottom: 35px; }
-    #about .text h2 span {
-      font-size: 2em;
-      color: white; }
-  #about .text p {
-    font-size: 1.313em; }
+  width: 100%;
+  padding: 1%;
+  border-radius: 0px; }
+  .navbar .navbar-brand {
+    font-family: "Pacifico", cursive;
+    font-size: 4em;
+    color: #7A5769; }
+  .navbar li {
+    color: white; }
+    .navbar li a {
+      font-family: "Quicksand", sans-serif;
+      font-size: 1.5em; }
+      .navbar li a:hover {
+        color: #7A5769; }
+
+#about {
+  margin-top: 5.6%; }
+  #about [class*="col-"] {
+    margin: 0px;
+    padding: 0px; }
+  #about .container-fluid {
+    background: #C7C2CC;
+    color: white; }
+  #about .logo {
+    position: absolute;
+    top: 100px;
+    right: 565px;
+    z-index: 1000;
+    width: 10%; }
+  #about .foto img {
+    width: 110%;
+    height: 700px; }
+  #about .text {
+    padding: 10% 17% 10% 27%;
+    font-family: "Quicksand", sans-serif;
+    text-align: center; }
+    #about .text h2 {
+      color: #7A5769;
+      font-size: 3em;
+      margin-bottom: 35px; }
+      #about .text h2 span {
+        font-size: 2em;
+        color: white; }
+    #about .text p {
+      font-size: 1.5em; }
 
 #skills [class*="col-"] {
   margin: 0px;
@@ -37,7 +60,7 @@
     margin: 0px;
     font-family: "Pacifico", cursive;
     font-size: 4.5em;
-    padding: 32% 26%; }
+    padding: 38% 26%; }
 #skills .circle {
   width: 143px;
   height: 140px;
@@ -61,6 +84,9 @@
     width: 50%;
     padding: 30% 0% 45%;
     margin: 0% 15%; }
+  #skills .circle span {
+    font-size: 70px;
+    color: white; }
 #skills .chart {
   position: relative;
   display: inline-block;
@@ -72,10 +98,16 @@
     position: absolute;
     top: 0;
     left: 0; }
+#skills #owl-demo .item {
+  margin: 3px; }
+#skills .owl-controls .owl-pagination {
+  display: none; }
 
 #portfolio {
   background: #FDFBD2;
-  padding: 2% 7%; }
+  padding: 3% 7%; }
+  #portfolio img {
+    width: 100%; }
   #portfolio h2 {
     font-family: "Pacifico", cursive;
     font-size: 4.5em;
@@ -118,39 +150,38 @@
     background: white;
     height: 150px;
     margin-bottom: 4%; }
+    #portfolio .col-right .port3 .agency {
+      height: 50px; }
+  #portfolio .port1, #portfolio .port2, #portfolio .port3 {
+    padding: 3%; }
 
 footer {
   background: #C7C2CC;
   font-family: "Quicksand", sans-serif;
   color: #7A5769;
   font-size: 1.5em;
-  padding-bottom: 5%; }
+  padding-bottom: 5%;
+  text-align: center; }
   footer .container {
     padding: 2% 0%;
     background: white; }
     footer .container img {
       width: 7%;
       text-align: center;
-      margin: 1% 47.5%; }
-  footer p {
-    text-align: center; }
-  footer .demo-fb {
-    position: relative;
-    width: 100%;
-    overflow: hidden; }
-    footer .demo-fb figure {
-      position: relative;
-      cursor: pointer;
-      margin-left: -50px; }
-      footer .demo-fb figure p {
-        display: block;
-        position: relative;
-        z-index: 10; }
-    footer .demo-fb figcaption {
-      display: block;
-      position: absolute;
-      z-index: 10; }
-      footer .demo-fb figcaption span {
-        display: block; }
+      margin: 1% 46.5% 3%; }
+  footer .conp {
+    margin-bottom: 3%; }
+    footer .conp p:hover {
+      text-decoration: underline; }
+    footer .conp .cel {
+      padding-left: 25%; }
+    footer .conp .correo {
+      padding-right: 20%; }
+  footer a {
+    color: #7A5769; }
+    footer a:hover {
+      color: #7A5769; }
+    footer a .fa {
+      font-size: 40px; }
 
 /*# sourceMappingURL=main.css.map */

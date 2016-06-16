@@ -1,4 +1,22 @@
 header
-	span Astrid
-
-
+	.container-fluid
+	nav(role="navigation" class="navbar navbar-default")
+		.navbar-header
+			button(type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle")
+				span.sr-only
+					Toggle navigation
+				span.icon-bar
+				span.icon-bar
+				span.icon-bar.
+			a(href="#" class="navbar-brand text-center")
+				|Astrid
+		div(id="navbarCollapse" class="collapse navbar-collapse pull-right")
+			ul.nav.navbar-nav
+				li
+					a(href="#about") Sobre Mí
+				li
+					a(href="#skills") Skills
+				li
+					a(href="#portfolio") Portafolio
+				li
+					a(href="#footer") Contacto

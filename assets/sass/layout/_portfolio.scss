@@ -1,6 +1,9 @@
 #portfolio {
 	background: $yellow;
-	padding: 2% 7%;
+	padding: 3% 7%;
+	img {
+		width: 100%;
+	}
 	h2 {
 		font-family: $title;
 		font-size: 4.5em;
@@ -57,6 +60,12 @@
 			background: white;
 			height: 150px;
 			margin-bottom: 4%;
+			.agency {
+				height: 50px;
+			}
 		}
+	}
+	.port1, .port2, .port3 {
+		padding:3%;
 	}
 }
